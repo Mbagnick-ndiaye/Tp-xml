@@ -1,0 +1,34 @@
+<?xml version="1.0" ?> 
+<!-- Annuaire d'illustration --> 
+<annuaire>  
+    <personne> <!-- une 1ere personne -->
+        <nom>Dupont</nom> 
+        <prenom>Paul <!-- ou Polo --> </prenom> 
+        <date format="ISO">198-07-23</date> 
+        <telephone>
+            <indicatif_tel> <!-- xx --> </indicatif_tel> 
+            <num_tel><!--xx xx xx --></num_tel>
+        </telephone>
+    </personne>
+
+
+    <personne> <!-- une 2nd personne -->
+        <nom>Alain</nom> 
+        <prenom courant="Vrai">Adrien</prenom>
+        <date format="ISO">1969-06-04</date> 
+        <telephone>
+            <indicatif_tel> 02 </indicatif_tel> 
+            <num_tel> 40 40 36 18 </num_tel>
+        </telephone> 
+    </personne> 
+
+    <personne><!-- une 3eme personne --> 
+        <nom>DUPONT</nom> 
+        <prenom>MARC</prenom>
+        <date format="ISO"><!-- xxxx xx xx --></date> 
+        <telephone>
+            <indicatif_tel> <!-- xx --> </indicatif_tel> 
+            <num_tel><!--xx xx xx --></num_tel>
+        </telephone>
+    </personne>
+</annuaire>
