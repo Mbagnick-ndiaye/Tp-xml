@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>   
+<systeme_solaire>   
+    <etoile>   
+        <nom>Soleil</nom>   
+        <type_spectral>G2</type_spectral>   
+        <age unit="milliard_d'années">5</age>   
+    </etoile>   
+    
+    <planete type="tellurique">      
+        <nom>Mercure</nom>   
+        <distance unit="UA">0.4</distance>   
+        <masse unit="masse_terrestre">0.06</masse>   
+        <diametre unit="diamètre_terrestre">0.4</diametre>   
+    </planete>   
+    
+    <planete type="tellurique">   
+        <nom>Vénus</nom>   
+        <distance unit="UA">0.7</distance>   
+        <masse unit="masse_terrestre">0.8</masse>   
+        <diametre unit="diamètre_terrestre">0.9</diametre>   
+    </planete>   
+    
+    <planete type="tellurique">   
+        <nom>Terre</nom>   
+        <distance unit="km">149600000</distance>   
+        <masse unit="kg">5.98e24</masse>   
+        <diametre unit="km">12756</diametre>   
+        <satellite nombre="1"/>   
+    </planete>   
+    
+    <planete type="tellurique">   
+        <nom>Mars</nom>   
+        <distance unit="UA">1.5</distance>   
+        <masse unit="masse_terrestre">0.1</masse>   
+        <diametre unit="diamètre_terrestre">0.5</diametre>   
+        <satellite nombre="2"/>   
+    </planete>   
+    
+    <planete anneau="oui" type="gazeuse">   
+        <nom>Jupiter</nom>   
+        <distance unit="UA">5.2</distance>   
+        <masse unit="masse_terrestre">318</masse>   
+        <diametre unit="diamètre_terrestre">11</diametre>   
+        <satellite nombre="16"/>   
+    </planete>   
+    
+    <planete anneau="oui" type="gazeuse">   
+        <nom>Saturne</nom>   
+        <distance unit="UA">9.6</distance>   
+        <masse unit="masse_terrestre">95</masse>   
+        <diametre unit="diamètre_terrestre">9.4</diametre>   
+        <satellite nombre="18"/>   
+    </planete>   
+    
+    <planete anneau="oui" type="gazeuse">   
+        <nom>Uranus</nom>   
+        <distance unit="UA">19.2</distance>   
+        <masse unit="masse_terrestre">14.5</masse>   
+        <diametre unit="diamètre_terrestre">4</diametre>   
+        <satellite nombre="15"/>   
+    </planete>   
+    
+    <planete anneau="oui" type="gazeuse">   
+        <nom>Neptune</nom>   
+        <distance unit="UA">30.1</distance>   
+        <masse unit="masse_terrestre">17.2</masse>   
+        <diametre unit="diamètre_terrestre">3.8</diametre>   
+        <satellite nombre="8"/>   
+    </planete>   
+    
+    <planete type="Kuiper">   
+        <nom>Pluton</nom>   
+        <distance unit="UA">39.4</distance>   
+        <masse unit="masse_terrestre">0.002</masse>   
+        <diametre unit="diamètre_terrestre">0.2</diametre>   
+        <satellite nombre="1"/>   
+    </planete>   
+</systeme_solaire>
