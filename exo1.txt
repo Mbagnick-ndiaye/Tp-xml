@@ -1,0 +1,55 @@
+
+
+
+
+								exercice1 de xml
+première version
+
+
+
+.enseignant		
+	.nom: Mme Fatima
+		-matière: Arabe
+		-élèves:161
+
+
+
+
+.enseignant
+	.nom: M. Ali
+		-matière: Arabe
+		-élèves:132
+		
+
+
+
+
+.enseignant
+	.nom: Mlle Nora
+		-matière: mathématique
+		-élèves:143
+	
+
+
+
+
+
+
+
+
+
+deuxième version
+
+
+
+
+
+-matière: ARABE
+ 	enseignant: Mme Fatima
+		élèves:161
+
+	enseignant: M. Ali
+		élèves:132
+-matière: mathématiques
+ 	enseignant: Mlle Nora
+		élèves:143
